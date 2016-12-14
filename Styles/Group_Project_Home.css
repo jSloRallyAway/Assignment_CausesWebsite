@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+
+}
+
+
+div .container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 5px;
+    color: white;
+    background-color: #000033;
+    clear: left;
+    text-align: center;
+    position: relative;
+
+}
+
+    header{
+       line-height: 65px;
+       padding-top: 45px;
+
+    }
+
+    footer{
+        line-height: 30px;
+    }
+ 
+#nav {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+
+}
+
+
+    ul {
+        width: 100%;
+        list-style-type: none;
+        margin: 0 auto;
+        background-color: #A0A0A0;
+    }
+
+    #nav li {
+       display: inline;
+
+    }
+
+    #nav a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+
+    li a:hover {
+        background-color: #808080;
+    }
+
+h1{
+    font-size: 22px;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+    header h1{
+        font-size: 45px;
+    }
+
+    
+#image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        width: 75%;
+    }
+
+#intro{
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+
+    }
+
+    #intro p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+.video_heading {
+    width: 100%;
+    clear: left;
+    padding-top: 70px;
+    display: inline-block;
+}
+
+
+#vid {
+
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    width: 60%;
+
+}
+
+video {
+    width: 100%;
+}
+
+@media only screen and (max-width: 568px) {
+    #nav {
+        width: 100%;
+    }
+
+     #first_column {
+        width: 100%;
+        float: left;
+        display: block;
+    }
+
+     #vid {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+
+    }
+
+    img {
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
